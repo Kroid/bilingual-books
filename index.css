@@ -1,0 +1,17 @@
+.sentence {
+  cursor: pointer;
+}
+
+.sentence:hover {
+  color: #004085;
+}
+
+.sentence.selected {
+  background-color: #071075;
+  color: white;
+}
+
+#translate {
+  cursor: pointer;
+  z-index: 999;
+}
