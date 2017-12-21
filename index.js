@@ -1,6 +1,6 @@
 $(document).ready(() => {
   $('body').flowtype({
-   minimum : 500,
+   // minimum : 500,
    maximum : 1000,
    minFont : 16,
    maxFont : 24,
