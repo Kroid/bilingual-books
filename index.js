@@ -1,11 +1,11 @@
 $(document).ready(() => {
-  // $('body').flowtype({
-  //  // minimum : 500,
-  //  maximum : 1000,
-  //  minFont : 16,
-  //  maxFont : 24,
-  //  // fontRatio : 45,
-  // });
+  $('body').flowtype({
+   minimum : 500,
+   maximum : 1000,
+   minFont : 16,
+   maxFont : 24,
+   // fontRatio : 45,
+  });
 
   $('span').popover({
     container: 'body'
